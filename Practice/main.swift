@@ -8,5 +8,28 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Type an operation")
+var opporator = readLine()
 
+
+
+func mySuperCoolAddFunction(num1: Float, num2: Float, opporator: String) -> Float  {
+    
+    var result: Float = 0.0
+    
+    if(opporator == "-"){
+        result = num1 - num2
+    }
+    if(opporator == "+"){
+        result = num1 + num2
+    }
+    if(opporator == "*"){
+        result = num1 * num2
+    }
+    if(opporator == "/"){
+        result = num1 / num2
+    }
+    return result
+}
+var result = mySuperCoolAddFunction(num1: 67, num2: 76, opporator: "+")
+print(result)
