@@ -10,7 +10,7 @@ import Foundation
 
 print("Type an operation")
 var opporator = readLine()
-
+ bvbgbfghfnghh
 
 
 func mySuperCoolAddFunction(num1: Float, num2: Float, opporator: String) -> Float  {
